@@ -5,7 +5,7 @@ LABEL \
     org.opencontainers.image.authors="akafeng <i@sjy.im>" \
     org.opencontainers.image.source="https://github.com/akafeng/docker-phantun"
 
-ARG PHANTUN_VERSION="0.5.0"
+ARG PHANTUN_VERSION="0.6.0"
 ARG PHANTUN_URL="https://github.com/dndx/phantun/releases/download/v${PHANTUN_VERSION}/phantun_x86_64-unknown-linux-gnu.zip"
 
 ENV RUN_MODE="server"
